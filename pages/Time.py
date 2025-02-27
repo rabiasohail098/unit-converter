@@ -62,9 +62,9 @@ st.markdown(f"""
 \text{{Converted Value}} = \frac{{\text{{Input Value}} \times \text{{Conversion Factor of {from_unit}}}}}{{\text{{Conversion Factor of {to_unit}}}}}
 \]
 
-- Example Calculation:
-  - `{value} {from_unit} = {value * time_units[from_unit]} meters`
-  - `{value * time_units[from_unit]} meters = {converted_value:.2f} {to_unit}`
+
+- `{repr(value)} {from_unit} = {repr(value * time_units[from_unit])} seconds`
+- `{repr(value * time_units[from_unit])} seconds = {converted_value:.2f} {to_unit}`
 
 ### Real-World Applications:
 - **Scheduling & Planning**: Meetings, appointments, and project deadlines.
