@@ -90,9 +90,10 @@ st.markdown(f"""
 - **Kelvin to Celsius**: \( C = K - 273.15 \)
 - **Fahrenheit to Kelvin**: \( K = (F - 32) \times \frac{5}{9} + 273.15 \)
 - **Kelvin to Fahrenheit**: \( F = (K - 273.15) \times \frac{9}{5} + 32 \)
-- Example Calculation:
-  - `{value} {from_unit} = {value * temperature_units[from_unit]} meters`
-  - `{value * temperature_units[from_unit]} meters = {converted_value:.2f} {to_unit}`
+
+### Example Calculation:
+- `{value} {from_unit} = {converted_value:.2f} {to_unit}`
+
 ### Real-World Application:
 - **Weather Forecasting**: Different countries use **Celsius** or **Fahrenheit**.
 - **Scientific Research**: **Kelvin** is used in space science and physics.
@@ -102,3 +103,4 @@ st.markdown(f"""
 - **Different temperature units suit different purposes.**
 - **Conversion ensures standardization across different regions and industries.**
 """)
+
