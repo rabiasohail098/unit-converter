@@ -57,8 +57,8 @@ st.markdown(f"""
 - **Formula Used:**
   \[ \text{{Converted Value}} = \frac{{\text{{Input Value}} \times \text{{Conversion Factor of {from_unit}}}}}{{\text{{Conversion Factor of {to_unit}}}}} \]
 - Example Calculation:
-  - `{value} {from_unit} = {value * pressure_units[from_unit]} Pa `
-  - `{value * pressure_units[from_unit]} Pa  = {converted_value:.2f} {to_unit}`
+  - `{value} {from_unit} = {converted_value:.2f} {to_unit} `
+
 
 ### Why is This Important?
 - Pressure conversion is essential in fluid mechanics, weather forecasting, and industrial applications.

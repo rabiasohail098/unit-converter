@@ -64,8 +64,7 @@ st.markdown(f"""
 \text{{Converted Value}} = \frac{{\text{{Input Value}} \times \text{{Conversion Factor of {from_unit}}}}}{{\text{{Conversion Factor of {to_unit}}}}}
 \]
 - Example Calculation:
-  - `{value} {from_unit} = {value * weight_units[from_unit]} Kilograms`
-  - `{value * weight_units[from_unit]} Kilograms = {converted_value:.2f} {to_unit}`
+  - `{value} {from_unit} = {converted_value:.2f} {to_unit}`
 
 ### Real-World Applications:
 - **Health & Fitness**: Weight tracking in gyms and medical records.

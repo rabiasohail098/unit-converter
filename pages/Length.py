@@ -59,7 +59,7 @@ st.markdown(f"""
   \[ \text{{Converted Value}} = \frac{{\text{{Input Value}} \times \text{{Conversion Factor of {from_unit}}}}}{{\text{{Conversion Factor of {to_unit}}}}} \]
 - Example Calculation:
   - `{value} {from_unit} = {value * length_units[from_unit]} meters`
-  - `{value * length_units[from_unit]} meters = {converted_value:.2f} {to_unit}`
+
 
 ### Why is This Important?
 - Converting between different length units is crucial in engineering, construction, and everyday applications.

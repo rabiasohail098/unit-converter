@@ -56,8 +56,8 @@ st.markdown(f"""
   \text{{Converted Value}} = \frac{{\text{{Input Value}} \times \text{{Conversion Factor of {from_unit}}}}}{{\text{{Conversion Factor of {to_unit}}}}}
   \]
 - Example Calculation:
-  - `{value} {from_unit} = {value * speed_units[from_unit]}  meters per second`
-  - `{value * speed_units[from_unit]}  meters per second = {converted_value:.2f} {to_unit}`
+  - `{value} {from_unit} = {value * speed_units[from_unit]}  {to_unit}`
+  
 
 ### Why is This Important?
 - Speed conversion is **essential** in physics, aviation, transportation, and automotive industries.
