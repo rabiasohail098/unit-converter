@@ -1,0 +1,4 @@
+streamlit
+matplotlib
+numpy
+pandas  # (Agar future me koi data table add karna ho)
