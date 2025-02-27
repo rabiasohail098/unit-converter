@@ -92,6 +92,7 @@ st.markdown(f"""
 - **Kelvin to Fahrenheit**: \( F = (K - 273.15) \times \frac{9}{5} + 32 \)
 
 ### Example Calculation:
+- `{value} {from_unit} = {value} {from_unit}`
 - `{value} {from_unit} = {converted_value:.2f} {to_unit}`
 
 ### Real-World Application:
